@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Quiz5ViewController : UIViewController
+@interface Quiz5ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
+    NSMutableArray *tasks;
+}
+
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
 
 @end

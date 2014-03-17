@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF11623C18D7979F00E10994 /* urgent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF11623B18D7979F00E10994 /* urgent.jpg */; };
 		BFB2203718D38364005BAD67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB2203618D38364005BAD67 /* Foundation.framework */; };
 		BFB2203918D38364005BAD67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB2203818D38364005BAD67 /* CoreGraphics.framework */; };
 		BFB2203B18D38364005BAD67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB2203A18D38364005BAD67 /* UIKit.framework */; };
@@ -21,6 +22,8 @@
 		BFB2205818D38364005BAD67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB2203A18D38364005BAD67 /* UIKit.framework */; };
 		BFB2206018D38364005BAD67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFB2205E18D38364005BAD67 /* InfoPlist.strings */; };
 		BFB2206218D38364005BAD67 /* Quiz5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB2206118D38364005BAD67 /* Quiz5Tests.m */; };
+		BFB2206D18D384D7005BAD67 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB2206C18D384D7005BAD67 /* DetailViewController.m */; };
+		BFB2207018D39028005BAD67 /* Tasks.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB2206F18D39028005BAD67 /* Tasks.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF11623B18D7979F00E10994 /* urgent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = urgent.jpg; sourceTree = "<group>"; };
 		BFB2203318D38364005BAD67 /* Quiz5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB2203618D38364005BAD67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BFB2203818D38364005BAD67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,10 @@
 		BFB2205D18D38364005BAD67 /* Quiz5Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quiz5Tests-Info.plist"; sourceTree = "<group>"; };
 		BFB2205F18D38364005BAD67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BFB2206118D38364005BAD67 /* Quiz5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz5Tests.m; sourceTree = "<group>"; };
+		BFB2206B18D384D7005BAD67 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		BFB2206C18D384D7005BAD67 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		BFB2206E18D39028005BAD67 /* Tasks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tasks.h; sourceTree = "<group>"; };
+		BFB2206F18D39028005BAD67 /* Tasks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tasks.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +123,13 @@
 				BFB2204518D38364005BAD67 /* Quiz5AppDelegate.h */,
 				BFB2204618D38364005BAD67 /* Quiz5AppDelegate.m */,
 				BFB2204818D38364005BAD67 /* Main.storyboard */,
+				BFB2206E18D39028005BAD67 /* Tasks.h */,
+				BFB2206F18D39028005BAD67 /* Tasks.m */,
 				BFB2204B18D38364005BAD67 /* Quiz5ViewController.h */,
 				BFB2204C18D38364005BAD67 /* Quiz5ViewController.m */,
+				BFB2206B18D384D7005BAD67 /* DetailViewController.h */,
+				BFB2206C18D384D7005BAD67 /* DetailViewController.m */,
+				BF11623B18D7979F00E10994 /* urgent.jpg */,
 				BFB2204E18D38364005BAD67 /* Images.xcassets */,
 				BFB2203D18D38364005BAD67 /* Supporting Files */,
 			);
@@ -231,6 +244,7 @@
 			files = (
 				BFB2204F18D38364005BAD67 /* Images.xcassets in Resources */,
 				BFB2204118D38364005BAD67 /* InfoPlist.strings in Resources */,
+				BF11623C18D7979F00E10994 /* urgent.jpg in Resources */,
 				BFB2204A18D38364005BAD67 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +267,8 @@
 				BFB2204318D38364005BAD67 /* main.m in Sources */,
 				BFB2204D18D38364005BAD67 /* Quiz5ViewController.m in Sources */,
 				BFB2204718D38364005BAD67 /* Quiz5AppDelegate.m in Sources */,
+				BFB2207018D39028005BAD67 /* Tasks.m in Sources */,
+				BFB2206D18D384D7005BAD67 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +477,7 @@
 				BFB2206718D38364005BAD67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFB2206818D38364005BAD67 /* Build configuration list for PBXNativeTarget "Quiz5Tests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +486,7 @@
 				BFB2206A18D38364005BAD67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
